@@ -1,0 +1,175 @@
+header{
+    height:56px;
+    display:flex;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    align-items: center;
+}
+    .h-left-section{
+        height:40px;
+        display:flex;
+        align-items: center;
+    }
+        .hamburger_icon-container{
+            padding:6px 8px;
+            box-sizing: border-box;
+            cursor: pointer;
+
+        }
+        .hamburger_icon{
+            width:24px;
+            height:24px;
+            pointer-events: none;
+        }
+        .yt_logo-container{
+            width:120px;
+            padding:18px 14px 18px 16px;
+            box-sizing: border-box;
+            cursor:pointer;
+        }
+        .yt_logo{
+            width:90px;
+            height:20px;
+            pointer-events:none;
+
+        }
+
+/****************************************************** */
+
+    .h-middle-section{
+        height:40px;
+        display:flex;
+        align-items: center;
+        /* justify-content:space-between; */
+        flex: 0 1 732px;
+    }
+        .type_search-container{
+            height:40px;
+            display:flex;
+            align-items: center;
+            flex:0 1 632px;
+            margin:0 0 0 40px;
+            padding:0 0 0 4px;
+        }
+        .search_bar-container{
+            flex:0 1 568px;
+        }
+        .search_bar-cover{
+            height:38px;
+            flex:0 1 536px;
+            margin:0 0 0 32px;
+            padding:0 4px 0 16px;
+            display:flex;
+            align-items: center;
+            border-radius:40px 0 0 40px;
+            border:1px solid #f3f0f0;
+        }
+        .search_bar{
+            flex:1;
+            height:26px;
+            padding:1px 0;
+            border:none;
+            background-color: transparent;
+            outline :0;
+        }
+        .search_icon-container{
+            height: 40px;
+            width:64px;
+            background:none;
+            border:1px solid #f3f0f0;
+            border-radius: 0 40px 40px 0;
+            margin-left:-1px;
+            background-color: #f3f0f0;
+            cursor: pointer;
+
+        }
+        .search_icon{
+            width:24px;
+            height:24px;
+        }
+        .voice_search-container{
+            width:40px;
+            height:40px;
+            display:flex;
+            align-items: center;
+            justify-content:center;
+            border:none;
+            border-radius:20px;
+            background-color: #f3f0f0;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .voice_search{
+            width:24px;
+            height:24px;
+            pointer-events: none;
+        }
+
+/* ********************************************************** */
+    .h-right-section{
+        min-width:225px;
+        height:40px;
+        display:flex;
+        align-items: center;
+        justify-content: end;
+    }
+        .h-right-content-container{
+            display:flex;
+            align-items: center;
+        }
+        .create-container
+        {
+            display:flex;
+            box-sizing: border-box;
+            padding:8px;
+            margin:0 6px 0 0;
+            cursor: pointer;
+        }
+        .create_icon
+        {
+            width:24px;
+            pointer-events: none;
+        }
+        .notification-container{
+            width:40px;
+            height:40px;
+            font:14px;
+            background:none;
+            border:none;
+            padding:0;
+            margin:0 6px 0 0;
+            cursor: pointer;
+        }
+        .notification_icon{
+            width:24px;
+            vertical-align:middle;
+            pointer-events: none;
+        }
+        .pfp-container{
+            width:60px;
+            height:34px;
+            display:flex;
+            justify-content: center;
+            justify-content: center;
+            padding:1px 6px;
+            cursor: pointer;
+        }
+        .pfp{
+            width:32px;
+            margin:0 8px;
+            border-radius:50px;
+            pointer-events: none;
+        }
+
+
+aside{
+    background-color: darkgreen;
+    width:216px;
+    height: 100%;
+    box-sizing: border-box;
+    /* padding:; */
+}
+.side_bar-content{
+    background-color: darkblue;
+    height:100%;
+}

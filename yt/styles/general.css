@@ -1,0 +1,14 @@
+body{
+    height:1000vh;
+    background-color: white;
+    margin:0;
+}
+header{
+    padding:0 16px;
+}
+.h-middle-seaction div{
+    box-sizing:border-box;
+}
+.icon_cover-div{
+    display:inline-block;
+}
