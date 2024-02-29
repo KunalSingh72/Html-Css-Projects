@@ -40,7 +40,6 @@ header{
         height:40px;
         display:flex;
         align-items: center;
-        /* justify-content:space-between; */
         flex: 0 1 732px;
     }
         .type_search-container{
@@ -164,12 +163,13 @@ header{
 
 aside{
     background-color: darkgreen;
-    width:216px;
+    width:64px;
     height: 100%;
+    padding: 0 4px;
     box-sizing: border-box;
     /* padding:; */
 }
 .side_bar-content{
-    background-color: darkblue;
-    height:100%;
+    background-color: rgb(47, 203, 224);
+    /* height:100%; */
 }
